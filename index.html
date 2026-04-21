@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precision Engineering Works | CNC Machining Job Work – Miraj, Maharashtra</title>
+  <meta name="description" content="Precision Engineering Works – Expert CNC & conventional machining job work in Miraj MIDC, Sangli district. CNC lathe, CNC milling, 4th axis rotary machining." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+
+  <!-- QR Code library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <style>
+    /* ============================================================
+       CSS VARIABLES – Edit these to restyle the whole page
+    ============================================================ */
+    :root {
+      --bg-dark:       #080c10;
+      --bg-card:       #0d1117;
+      --bg-section:    #0a0f14;
+      --border:        #1e2d3d;
+      --accent-cyan:   #00d4ff;
+      --accent-orange: #ff6b35;
+      --accent-gold:   #f0a500;
+      --text-primary:  #e8edf2;
+      --text-secondary:#8fa3b8;
+      --text-muted:    #4a6070;
+      --font-heading:  'Rajdhani', sans-serif;
+      --font-body:     'Barlow', sans-serif;
+      --font-mono:     'Share Tech Mono', monospace;
+      --radius:        6px;
+      --shadow:        0 4px 32px rgba(0,212,255,0.08);
+    }
+
+    /* ============================================================
+       RESET & BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      background: var(--bg-dark);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    /* ============================================================
+       UTILITY CLASSES
+    ============================================================ */
+    .container {
+      width: 92%;
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--text-primary);
+    }
+    .section-title span { color: var(--accent-cyan); }
+    .section-subtitle {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      max-width: 560px;
+      margin-top: 0.75rem;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--accent-cyan);
+      color: #080c10;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      padding: 0.82rem 2rem;
+      border-radius: var(--radius);
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    }
+    .btn-primary:hover {
+      background: #33ddff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(0,212,255,0.35);
+    }
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: transparent;
+      color: var(--accent-cyan);
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      padding: 0.8rem 1.8rem;
+      border-radius: var(--radius);
+      border: 1.5px solid var(--accent-cyan);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-outline:hover {
+      background: rgba(0,212,255,0.08);
+      transform: translateY(-2px);
+    }
+    .divider-line {
+      width: 48px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-cyan), transparent);
+      border-radius: 2px;
+      margin: 1rem 0 1.6rem;
+    }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      border-color: var(--accent-cyan);
+      box-shadow: var(--shadow);
+    }
+
+    /* ============================================================
+       TOP BAR
+    ============================================================ */
+    .topbar {
+      background: #04080c;
+      border-bottom: 1px solid var(--border);
+      padding: 0.45rem 0;
+      font-size: 0.78rem;
+      font-family: var(--font-mono);
+      color: var(--text-muted);
+    }
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .topbar a { color: var(--text-secondary); transition: color 0.2s; }
+    .topbar a:hover { color: var(--accent-cyan); }
+
+    /* ============================================================
+       NAVBAR
+    ============================================================ */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(8,12,16,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.9rem 0;
+    }
+    .navbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .navbar-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+    }
+    .logo-icon {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, var(--accent-cyan), #0066aa);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    .logo-text {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--text-primary);
+      line-height: 1.2;
+    }
+    .logo-sub {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      list-style: none;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+    }
+    .nav-links a {
+      color: var(--text-secondary);
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--accent-cyan); }
+    .nav-cta { flex-shrink: 0; }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--text-primary);
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+
+    /* ============================================================
+       HERO SECTION
+    ============================================================ */
+    .hero {
+      position: relative;
+      min-height: 94vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--bg-dark);
+    }
+    .hero-bg-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+    }
+    .hero-bg-glow {
+      position: absolute;
+      top: -10%;
+      right: -10%;
+      width: 60vw;
+      height: 60vw;
+      background: radial-gradient(ellipse at center, rgba(0,212,255,0.07) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      padding: 4rem 0;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(0,212,255,0.08);
+      border: 1px solid rgba(0,212,255,0.2);
+      border-radius: 100px;
+      padding: 0.3rem 0.9rem;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.1em;
+      margin-bottom: 1.4rem;
+    }
+    .hero-badge-dot {
+      width: 6px; height: 6px;
+      background: var(--accent-cyan);
+      border-radius: 50%;
+      animation: pulse-dot 2s infinite;
+    }
+    @keyframes pulse-dot {
+      0%,100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .hero-headline {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
+      line-height: 1.08;
+      color: var(--text-primary);
+      margin-bottom: 1.2rem;
+    }
+    .hero-headline .hl-cyan { color: var(--accent-cyan); }
+    .hero-headline .hl-orange { color: var(--accent-orange); }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      max-width: 500px;
+      margin-bottom: 2rem;
+      line-height: 1.75;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .hero-stat-item {}
+    .hero-stat-num {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      letter-spacing: 0.06em;
+    }
+    /* Hero image side */
+    .hero-visual {
+      position: relative;
+    }
+    .hero-img-main {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+    }
+    .hero-img-badge {
+      position: absolute;
+      bottom: -1.2rem;
+      left: -1.2rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.8rem 1.2rem;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent-cyan);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+      z-index: 3;
+    }
+    .hero-img-badge2 {
+      position: absolute;
+      top: -1rem;
+      right: -1rem;
+      background: var(--accent-orange);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 0.6rem 1rem;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.85rem;
+      z-index: 3;
+    }
+
+    /* ============================================================
+       PARENT COMPANY BANNER
+    ============================================================ */
+    .parent-banner {
+      background: linear-gradient(90deg, rgba(0,212,255,0.06), rgba(255,107,53,0.06));
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 0;
+    }
+    .parent-banner-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .parent-banner-text {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      letter-spacing: 0.05em;
+    }
+    .parent-banner-text strong { color: var(--accent-gold); }
+
+    /* ============================================================
+       MACHINES / SERVICES SECTION
+    ============================================================ */
+    .section-pad { padding: 5rem 0; }
+    .section-header { margin-bottom: 3rem; }
+
+    .machines-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.4rem;
+    }
+    .machine-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s;
+    }
+    .machine-card:hover {
+      border-color: var(--accent-cyan);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,212,255,0.12);
+    }
+    .machine-card-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background: #111820;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .machine-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .machine-card-img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(8,12,16,0.5), transparent);
+    }
+    .machine-card-tag {
+      position: absolute;
+      top: 0.7rem;
+      right: 0.7rem;
+      background: var(--accent-cyan);
+      color: #080c10;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.55rem;
+      border-radius: 3px;
+    }
+    .machine-card-tag.advanced { background: var(--accent-orange); color: #fff; }
+    .machine-card-body { padding: 1.4rem; }
+    .machine-card-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+    }
+    .machine-card-count {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--accent-cyan);
+      margin-bottom: 0.7rem;
+    }
+    .machine-card-desc {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       CAPABILITIES / INDUSTRIES SECTION
+    ============================================================ */
+    .capabilities-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.2rem;
+    }
+    .capability-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+    .capability-item:hover { border-color: var(--accent-orange); }
+    .capability-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+    }
+    .capability-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+    }
+    .capability-desc {
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    /* ============================================================
+       KEY BENEFITS / FEATURES SECTION
+    ============================================================ */
+    .benefits-section {
+      background: var(--bg-section);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .benefit-card {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+    }
+    .benefit-number {
+      font-family: var(--font-heading);
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      opacity: 0.18;
+      line-height: 1;
+      margin-bottom: -1rem;
+    }
+    .benefit-icon-wrap {
+      width: 64px;
+      height: 64px;
+      background: rgba(0,212,255,0.08);
+      border: 1px solid rgba(0,212,255,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.7rem;
+      margin: 0 auto 1.2rem;
+    }
+    .benefit-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--text-primary);
+      margin-bottom: 0.6rem;
+    }
+    .benefit-desc {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+
+    /* ============================================================
+       CLIENTS SECTION
+    ============================================================ */
+    .clients-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem 0;
+    }
+    .client-badge {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.6rem 1.2rem;
+      font-family: var(--font-heading);
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .client-badge:hover { border-color: var(--accent-cyan); color: var(--text-primary); }
+
+    /* ============================================================
+       TESTIMONIALS SECTION
+    ============================================================ */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .testimonial-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      position: relative;
+    }
+    .testimonial-card::before {
+      content: '"';
+      font-family: Georgia, serif;
+      font-size: 5rem;
+      color: var(--accent-cyan);
+      opacity: 0.12;
+      position: absolute;
+      top: 0.5rem;
+      left: 1rem;
+      line-height: 1;
+    }
+    .testimonial-stars {
+      color: var(--accent-gold);
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      margin-bottom: 0.9rem;
+    }
+    .testimonial-text {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      font-style: italic;
+      line-height: 1.7;
+      margin-bottom: 1.4rem;
+    }
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .testimonial-avatar {
+      width: 42px; height: 42px;
+      background: linear-gradient(135deg, var(--accent-cyan), #0066aa);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      color: #080c10;
+      flex-shrink: 0;
+    }
+    .testimonial-name {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-primary);
+    }
+    .testimonial-company {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    /* ============================================================
+       PRICING SECTION
+    ============================================================ */
+    .pricing-section { background: var(--bg-section); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .pricing-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      text-align: center;
+      transition: border-color 0.25s, box-shadow 0.25s, transform 0.2s;
+    }
+    .pricing-card:hover {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 8px 40px rgba(0,212,255,0.12);
+      transform: translateY(-4px);
+    }
+    .pricing-card.featured {
+      border-color: var(--accent-orange);
+      position: relative;
+    }
+    .pricing-card.featured::before {
+      content: 'MOST REQUESTED';
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent-orange);
+      color: #fff;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      padding: 0.3rem 0.8rem;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+    .pricing-machine {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .pricing-name {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--text-primary);
+      margin-bottom: 1.2rem;
+    }
+    .pricing-amount {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 3rem;
+      color: var(--accent-cyan);
+      line-height: 1;
+    }
+    .pricing-card.featured .pricing-amount { color: var(--accent-orange); }
+    .pricing-unit {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 1.4rem;
+    }
+    .pricing-features {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 1.8rem;
+    }
+    .pricing-features li {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      padding: 0.4rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    .pricing-features li::before {
+      content: '✓';
+      color: var(--accent-cyan);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .pricing-note {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    /* ============================================================
+       TEAM / ABOUT SECTION
+    ============================================================ */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .about-img-wrap {
+      position: relative;
+    }
+    .about-img-main {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .about-img-card {
+      position: absolute;
+      bottom: -1.5rem;
+      right: -1.5rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.4rem;
+    }
+    .about-img-card-title {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+    }
+    .about-img-card-val {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: var(--accent-gold);
+    }
+    .about-list {
+      list-style: none;
+      margin: 1.2rem 0;
+    }
+    .about-list li {
+      padding: 0.55rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+    }
+    .about-list li::before {
+      content: '▸';
+      color: var(--accent-cyan);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .md-card {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.2rem;
+      margin-top: 1.5rem;
+    }
+    .md-avatar {
+      width: 56px; height: 56px;
+      background: linear-gradient(135deg, var(--accent-orange), #cc4400);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .md-name {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text-primary);
+    }
+    .md-title {
+      font-size: 0.78rem;
+      color: var(--accent-cyan);
+      font-family: var(--font-mono);
+    }
+
+    /* ============================================================
+       INSPECTION & QUALITY SECTION
+    ============================================================ */
+    .quality-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .quality-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.2rem;
+      text-align: center;
+    }
+    .quality-item-icon { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    .quality-item-text {
+      font-family: var(--font-heading);
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+
+    /* ============================================================
+       CONTACT / CTA SECTION
+    ============================================================ */
+    .contact-section {
+      background: var(--bg-section);
+      border-top: 1px solid var(--border);
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    .contact-info-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.6rem;
+    }
+    .contact-info-icon {
+      width: 44px; height: 44px;
+      background: rgba(0,212,255,0.08);
+      border: 1px solid rgba(0,212,255,0.2);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .contact-info-label {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      margin-bottom: 0.2rem;
+    }
+    .contact-info-val {
+      font-size: 0.95rem;
+      color: var(--text-primary);
+    }
+    .contact-info-val a { transition: color 0.2s; }
+    .contact-info-val a:hover { color: var(--accent-cyan); }
+    .contact-cta-box {
+      background: linear-gradient(135deg, rgba(0,212,255,0.06), rgba(255,107,53,0.06));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      text-align: center;
+    }
+    .contact-cta-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: var(--text-primary);
+      margin-bottom: 0.8rem;
+    }
+    .contact-cta-sub {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 1.8rem;
+      line-height: 1.65;
+    }
+    .contact-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; justify-content: center; }
+
+    /* QR CODE */
+    .qr-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .qr-title {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+    #qrcode {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #qrcode canvas, #qrcode img { border-radius: 4px; }
+    .qr-note {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.8rem;
+    }
+
+    /* ============================================================
+       EXPANSION / INVESTMENT SECTION
+    ============================================================ */
+    .expansion-banner {
+      background: linear-gradient(135deg, rgba(240,165,0,0.08), rgba(255,107,53,0.06));
+      border: 1px solid rgba(240,165,0,0.2);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .expansion-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: var(--accent-gold);
+      margin-bottom: 0.8rem;
+    }
+    .expansion-text {
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer {
+      background: #04080c;
+      border-top: 1px solid var(--border);
+      padding: 2rem 0 1rem;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+    .footer-links a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--accent-cyan); }
+
+    /* ============================================================
+       SCROLL ANIMATIONS
+    ============================================================ */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ============================================================
+       MOBILE NAV
+    ============================================================ */
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .mobile-nav {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(8,12,16,0.98);
+        z-index: 200;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+      .mobile-nav.open { display: flex; }
+      .mobile-nav a {
+        font-family: var(--font-heading);
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        transition: color 0.2s;
+      }
+      .mobile-nav a:hover { color: var(--accent-cyan); }
+      .mobile-nav-close {
+        position: absolute;
+        top: 1.5rem; right: 1.5rem;
+        font-size: 2rem;
+        color: var(--text-secondary);
+        cursor: pointer;
+        background: none; border: none;
+        line-height: 1;
+      }
+    }
+
+    /* ============================================================
+       RESPONSIVE BREAKPOINTS
+    ============================================================ */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-visual { display: none; }
+      .benefits-grid { grid-template-columns: 1fr; gap: 0; }
+      .benefit-card { border-bottom: 1px solid var(--border); }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .pricing-grid { grid-template-columns: 1fr; }
+      .about-grid { grid-template-columns: 1fr; }
+      .about-img-wrap { display: none; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .section-pad { padding: 3.5rem 0; }
+      .hero-headline { font-size: 2rem; }
+      .hero-actions { flex-direction: column; }
+      .hero-actions a, .hero-actions button { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================
+     TOP BAR
+============================================================ -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <span>📍 Alankar Colony, Near Suyash Foundry, Miraj MIDC – 416410, Sangli, Maharashtra</span>
+      <span>
+        📞 <a href="tel:+918668256465">+91 86682 56465</a> &nbsp;|&nbsp;
+        ✉ <a href="mailto:bargirayyaz@gmail.com">bargirayyaz@gmail.com</a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     NAVBAR
+============================================================ -->
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="#" class="navbar-logo">
+        <div class="logo-icon">⚙</div>
+        <div>
+          <div class="logo-text">Precision Engineering Works</div>
+          <div class="logo-sub">CNC &amp; Conventional Machining</div>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#machines">Machines</a></li>
+        <li><a href="#capabilities">Industries</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn-primary nav-cta">Get a Quote</a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-nav-close">✕</button>
+  <a href="#machines" onclick="closeMobileNav()">Machines</a>
+  <a href="#capabilities" onclick="closeMobileNav()">Industries</a>
+  <a href="#pricing" onclick="closeMobileNav()">Pricing</a>
+  <a href="#clients" onclick="closeMobileNav()">Clients</a>
+  <a href="#contact" onclick="closeMobileNav()">Contact</a>
+  <a href="#contact" class="btn-primary" onclick="closeMobileNav()">Get a Quote</a>
+</div>
+
+<!-- ============================================================
+     HERO SECTION
+============================================================ -->
+<section class="hero" id="home">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-bg-glow"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Est. 1985 · Miraj MIDC · Western Maharashtra
+        </div>
+        <h1 class="hero-headline">
+          <span class="hl-cyan">Precision</span><br />
+          Machining<br />
+          <span class="hl-orange">Done Right</span>
+        </h1>
+        <p class="hero-sub">
+          Advanced CNC &amp; conventional machining job work for medical devices, auto ancillary,
+          conveyors, suspension parts, and more. Backed by 4 decades of engineering excellence.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">📞 Request a Quote</a>
+          <a href="#machines" class="btn-outline">View Our Machines</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">39+</div>
+            <div class="hero-stat-label">Years in Industry</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">₹50L+</div>
+            <div class="hero-stat-label">Annual Turnover</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">12+</div>
+            <div class="hero-stat-label">Machine Units</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img
+          class="hero-img-main"
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80"
+          alt="CNC Machine Shop"
+          onerror="this.style.background='#111820';this.alt='CNC Machining'"
+        />
+        <div class="hero-img-badge">⚙ CNC 4th Axis Rotary Capability</div>
+        <div class="hero-img-badge2">ISO Quality</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PARENT COMPANY BANNER
+============================================================ -->
+<div class="parent-banner">
+  <div class="container">
+    <div class="parent-banner-inner">
+      <span class="parent-banner-text">
+        A proud unit of <strong>Perfect Engineering Works</strong> — trusted since <strong>1985</strong> in precision manufacturing, Western Maharashtra.
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     MACHINES SECTION
+============================================================ -->
+<section class="section-pad" id="machines">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-label">// Our Equipment</div>
+      <h2 class="section-title">Our <span>Machine</span> Setup</h2>
+      <div class="divider-line"></div>
+      <p class="section-subtitle">
+        A powerful combination of conventional and CNC machines, supported by all necessary inspection instruments for quality assurance.
+      </p>
+    </div>
+
+    <div class="machines-grid">
+      <!-- CONVENTIONAL -->
+      <div class="machine-card fade-up">
+        <div class="machine-card-img">
+          <img src="https://images.unsplash.com/photo-1565034946487-077786996e27?w=500&q=80" alt="Lathe Machine" onerror="this.parentElement.innerHTML='🔩'" />
+          <div class="machine-card-img-overlay"></div>
+          <span class="machine-card-tag">CONVENTIONAL</span>
+        </div>
+        <div class="machine-card-body">
+          <div class="machine-card-title">Heavy Duty Lathe</div>
+          <div class="machine-card-count">4 Units Available</div>
+          <div class="machine-card-desc">Large-capacity conventional lathes for turning, facing, threading, and boring operations across a wide range of materials.</div>
+        </div>
+      </div>
+
+      <div class="machine-card fade-up">
+        <div class="machine-card-img">
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=500&q=80" alt="Milling Machine" onerror="this.parentElement.innerHTML='⚙'" />
+          <div class="machine-card-img-overlay"></div>
+          <span class="machine-card-tag">CONVENTIONAL</span>
+        </div>
+        <div class="machine-card-body">
+          <div class="machine-card-title">Milling Machines</div>
+          <div class="machine-card-count">3 Units Available</div>
+          <div class="machine-card-desc">Conventional milling for slots, keyways, flat surfaces, and complex profiles in steel, aluminium, brass, and more.</div>
+        </div>
+      </div>
+
+      <div class="machine-card fade-up">
+        <div class="machine-card-img">
+          <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=500&q=80" alt="Drilling Machine" onerror="this.parentElement.innerHTML='🔧'" />
+          <div class="machine-card-img-overlay"></div>
+          <span class="machine-card-tag">CONVENTIONAL</span>
+        </div>
+        <div class="machine-card-body">
+          <div class="machine-card-title">Pillar Drilling Machines</div>
+          <div class="machine-card-count">2 Units Available</div>
+          <div class="machine-card-desc">Heavy-duty pillar drills for precision hole-making, reaming, and counter-boring on large and heavy workpieces.</div>
+        </div>
+      </div>
+
+      <!-- CNC -->
+      <div class="machine-card fade-up">
+        <div class="machine-card-img">
+          <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?w=500&q=80" alt="CNC Lathe" onerror="this.parentElement.innerHTML='🤖'" />
+          <div class="machine-card-img-overlay"></div>
+          <span class="machine-card-tag advanced">CNC ADVANCED</span>
+        </div>
+        <div class="machine-card-body">
+          <div class="machine-card-title">CNC Lathe Machines</div>
+          <div class="machine-card-count">2 Units Available</div>
+          <div class="machine-card-desc">High-precision CNC turning centres for complex profiles, tight tolerances, and high-volume production runs. ₹400/hr.</div>
+        </div>
+      </div>
+
+      <div class="machine-card fade-up">
+        <div class="machine-card-img">
+          <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=500&q=80" alt="CNC Milling Machine" onerror="this.parentElement.innerHTML='🏭'" />
+          <div class="machine-card-img-overlay"></div>
+          <span class="machine-card-tag advanced">CNC ADVANCED</span>
+        </div>
+        <div class="machine-card-body">
+          <div class="machine-card-title">CNC Milling Machine</div>
+          <div class="machine-card-count">1 Unit + 4th Axis Rotary Table (UCAM)</div>
+          <div class="machine-card-desc">4-axis CNC milling with rotary table for complex contours, helical milling, and multi-face machining in a single setup. ₹550–600/hr.</div>
+        </div>
+      </div>
+
+      <div class="machine-card fade-up">
+        <div class="machine-card-img" style="background:#111820; font-size:3rem; display:flex; align-items:center; justify-content:center;">
+          📐
+        </div>
+        <div class="machine-card-body">
+          <div class="machine-card-title">Inspection Equipment</div>
+          <div class="machine-card-count">Complete Set Available</div>
+          <div class="machine-card-desc">All necessary precision inspection instruments — vernier callipers, micrometers, bore gauges, CMM-class instruments — ensuring dimensional accuracy every time.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CAPABILITIES / INDUSTRIES SECTION
+============================================================ -->
+<section class="section-pad benefits-section" id="capabilities">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-label">// Industries We Serve</div>
+      <h2 class="section-title">Diverse <span>Machining</span> Capabilities</h2>
+      <div class="divider-line"></div>
+    </div>
+    <div class="capabilities-grid">
+      <div class="capability-item fade-up">
+        <div class="capability-icon">🔬</div>
+        <div class="capability-title">Medical Devices</div>
+        <div class="capability-desc">Eye-piece assemblies, ophthalmic machine parts in brass and aluminium for Opto Fine Medical Instruments and similar OEMs.</div>
+      </div>
+      <div class="capability-item fade-up">
+        <div class="capability-icon">🚗</div>
+        <div class="capability-title">Auto Ancillary</div>
+        <div class="capability-desc">Camshafts, cambox housings (Isuzu 4×4), knuckles of axles, and structural driveline components.</div>
+      </div>
+      <div class="capability-item fade-up">
+        <div class="capability-icon">🏭</div>
+        <div class="capability-title">Conveyor Systems</div>
+        <div class="capability-desc">Rollers and precision components for conveyor systems – supplied to clients like Rovekh Conveyors.</div>
+      </div>
+      <div class="capability-item fade-up">
+        <div class="capability-icon">🔩</div>
+        <div class="capability-title">Suspension Parts</div>
+        <div class="capability-desc">Arnott Suspension (USA) components machined to international quality and dimensional standards.</div>
+      </div>
+      <div class="capability-item fade-up">
+        <div class="capability-icon">⚙</div>
+        <div class="capability-title">General Engineering</div>
+        <div class="capability-desc">Flanges, shafts, housings, brackets, and custom machined components for diverse engineering applications.</div>
+      </div>
+      <div class="capability-item fade-up">
+        <div class="capability-icon">🎯</div>
+        <div class="capability-title">Precision Components</div>
+        <div class="capability-desc">Close-tolerance, high-accuracy parts in steel, aluminium, brass, CI, and special alloys for critical applications.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     KEY BENEFITS SECTION (3 Core Benefits)
+============================================================ -->
+<section class="section-pad">
+  <div class="container">
+    <div class="section-header fade-up" style="text-align:center;">
+      <div class="section-label" style="text-align:center;">// Why Choose Us</div>
+      <h2 class="section-title" style="text-align:center;">Three <span>Reasons</span> to Partner With Us</h2>
+      <div class="divider-line" style="margin:1rem auto 0;"></div>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-card card fade-up">
+        <div class="benefit-number">01</div>
+        <div class="benefit-icon-wrap">⏱</div>
+        <div class="benefit-title">On-Time Delivery</div>
+        <div class="benefit-desc">We understand production schedules are critical. Our streamlined workflow and dedicated team ensure your orders are delivered on schedule, every time — without compromising quality.</div>
+      </div>
+      <div class="benefit-card card fade-up">
+        <div class="benefit-number">02</div>
+        <div class="benefit-icon-wrap">🎯</div>
+        <div class="benefit-title">Tight Tolerance Expertise</div>
+        <div class="benefit-desc">From medical optics to heavy auto parts, we maintain micron-level accuracies. Our CNC 4th-axis rotary setup handles the most complex geometries with consistent precision across batches.</div>
+      </div>
+      <div class="benefit-card card fade-up">
+        <div class="benefit-number">03</div>
+        <div class="benefit-icon-wrap">🤝</div>
+        <div class="benefit-title">Full-Service Job Work</div>
+        <div class="benefit-desc">One vendor, all your machining needs. Conventional, CNC turning, 4-axis milling, inspection — under one roof in Miraj MIDC, backed by 39+ years of manufacturing heritage.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CLIENTS SECTION
+============================================================ -->
+<section class="section-pad" style="background:var(--bg-section); border-top:1px solid var(--border);" id="clients">
+  <div class="container">
+    <div class="section-header fade-up" style="text-align:center;">
+      <div class="section-label" style="text-align:center;">// Trusted By</div>
+      <h2 class="section-title" style="text-align:center;">Our <span>Valued</span> Clients</h2>
+      <div class="divider-line" style="margin:1rem auto 0;"></div>
+    </div>
+    <div class="clients-strip fade-up">
+      <div class="client-badge">Opto Fine Medical Instruments Pvt Ltd</div>
+      <div class="client-badge">Mahabal Metals Pvt Ltd</div>
+      <div class="client-badge">Rovekh Conveyors</div>
+      <div class="client-badge">Rotadyne Precision Engineering Pvt Ltd</div>
+      <div class="client-badge">Fine Group of Companies</div>
+      <div class="client-badge">Fine Manufacturing Industries</div>
+      <div class="client-badge">Arnott Suspension (USA) – Supply Chain</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TESTIMONIALS SECTION
+============================================================ -->
+<section class="section-pad" id="testimonials">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-label">// Social Proof</div>
+      <h2 class="section-title">What <span>Clients</span> Say</h2>
+      <div class="divider-line"></div>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Precision Engineering Works has been our go-to machining partner for ophthalmic components. Their brass and aluminium work is consistently accurate — zero rejections over the last two years of supply.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">OF</div>
+          <div>
+            <div class="testimonial-name">Procurement Head</div>
+            <div class="testimonial-company">Opto Fine Medical Instruments Pvt Ltd</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Their CNC milling with 4th axis capability allowed us to machine complex conveyor roller profiles in a single setup. Lead times improved significantly and quality is consistent batch after batch.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">RC</div>
+          <div>
+            <div class="testimonial-name">Operations Manager</div>
+            <div class="testimonial-company">Rovekh Conveyors</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">We've worked with many machining vendors but Precision Engineering Works stands out for their commitment and skilled team. The Isuzu cambox housings they produce meet our tightest dimensional specs.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">RP</div>
+          <div>
+            <div class="testimonial-name">Quality Engineer</div>
+            <div class="testimonial-company">Rotadyne Precision Engineering Pvt Ltd</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRICING SECTION
+============================================================ -->
+<section class="section-pad pricing-section" id="pricing">
+  <div class="container">
+    <div class="section-header fade-up" style="text-align:center;">
+      <div class="section-label" style="text-align:center;">// Hourly Rates</div>
+      <h2 class="section-title" style="text-align:center;">Transparent <span>Pricing</span></h2>
+      <div class="divider-line" style="margin:1rem auto 0;"></div>
+      <p class="section-subtitle" style="margin:0.5rem auto 0; text-align:center;">Competitive hourly machining rates for CNC operations. Rates negotiable based on volume and project requirements.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card fade-up">
+        <div class="pricing-machine">CNC Turning</div>
+        <div class="pricing-name">CNC Lathe Machining</div>
+        <div class="pricing-amount">₹400</div>
+        <div class="pricing-unit">per hour</div>
+        <ul class="pricing-features">
+          <li>High-precision turning & profiling</li>
+          <li>Ferrous & non-ferrous materials</li>
+          <li>Batch &amp; prototype runs</li>
+          <li>Tight tolerance capability</li>
+          <li>Skilled CNC operators</li>
+        </ul>
+        <a href="#contact" class="btn-outline" style="width:100%; justify-content:center;">Enquire Now</a>
+      </div>
+      <div class="pricing-card featured fade-up">
+        <div class="pricing-machine">CNC Milling</div>
+        <div class="pricing-name">CNC Milling Machining</div>
+        <div class="pricing-amount">₹550</div>
+        <div class="pricing-unit">per hour</div>
+        <ul class="pricing-features">
+          <li>3-axis precision milling</li>
+          <li>Complex contour profiling</li>
+          <li>Aluminium, brass, steel, CI</li>
+          <li>High surface finish quality</li>
+          <li>CAM-programmed operations</li>
+        </ul>
+        <a href="#contact" class="btn-primary" style="width:100%; justify-content:center;">Enquire Now</a>
+      </div>
+      <div class="pricing-card fade-up">
+        <div class="pricing-machine">4th Axis Milling</div>
+        <div class="pricing-name">CNC 4th Axis Rotary</div>
+        <div class="pricing-amount">₹600</div>
+        <div class="pricing-unit">per hour</div>
+        <ul class="pricing-features">
+          <li>4-axis simultaneous machining</li>
+          <li>UCAM rotary table setup</li>
+          <li>Complex 3D geometries</li>
+          <li>Multi-face single-setup jobs</li>
+          <li>Helical &amp; spiral milling</li>
+        </ul>
+        <a href="#contact" class="btn-outline" style="width:100%; justify-content:center;">Enquire Now</a>
+      </div>
+    </div>
+    <p class="pricing-note fade-up">* Rates are subject to revision based on inflation, material, and complexity. Bulk &amp; long-term contract discounts available. Contact us for a custom quote.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     QUALITY / INSPECTION SECTION
+============================================================ -->
+<section class="section-pad" style="border-top:1px solid var(--border);">
+  <div class="container">
+    <div class="section-header fade-up" style="text-align:center;">
+      <div class="section-label" style="text-align:center;">// Quality Assurance</div>
+      <h2 class="section-title" style="text-align:center;">Precision <span>Verified</span></h2>
+      <div class="divider-line" style="margin:1rem auto 0;"></div>
+      <p class="section-subtitle" style="margin:0.5rem auto 0; text-align:center;">Every component is measured and verified with our complete suite of inspection instruments before dispatch.</p>
+    </div>
+    <div class="quality-items fade-up">
+      <div class="quality-item"><div class="quality-item-icon">📏</div><div class="quality-item-text">Vernier Callipers</div></div>
+      <div class="quality-item"><div class="quality-item-icon">🔬</div><div class="quality-item-text">Micrometers</div></div>
+      <div class="quality-item"><div class="quality-item-icon">⭕</div><div class="quality-item-text">Bore Gauges</div></div>
+      <div class="quality-item"><div class="quality-item-icon">📐</div><div class="quality-item-text">Dial Indicators</div></div>
+      <div class="quality-item"><div class="quality-item-icon">🎚</div><div class="quality-item-text">Height Gauges</div></div>
+      <div class="quality-item"><div class="quality-item-icon">🔩</div><div class="quality-item-text">Thread Gauges</div></div>
+      <div class="quality-item"><div class="quality-item-icon">📊</div><div class="quality-item-text">Surface Plate & V-Blocks</div></div>
+      <div class="quality-item"><div class="quality-item-icon">✅</div><div class="quality-item-text">Inspection Reports</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT / TEAM SECTION
+============================================================ -->
+<section class="section-pad" style="background:var(--bg-section); border-top:1px solid var(--border);" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap fade-up">
+        <img
+          class="about-img-main"
+          src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=700&q=80"
+          alt="Machine Shop"
+          onerror="this.style.background='#111820'"
+        />
+        <div class="about-img-card">
+          <div class="about-img-card-title">Annual Turnover</div>
+          <div class="about-img-card-val">₹50 Lakh+</div>
+        </div>
+      </div>
+      <div class="about-text fade-up">
+        <div class="section-label">// About Us</div>
+        <h2 class="section-title">Engineering <span>Since 1985</span></h2>
+        <div class="divider-line"></div>
+        <p style="color:var(--text-secondary); font-size:0.95rem; line-height:1.75; margin-bottom:1.2rem;">
+          Precision Engineering Works is a unit of <strong style="color:var(--text-primary);">Perfect Engineering Works</strong>, established in 1985 in Western Maharashtra. With nearly four decades of hands-on experience, we have grown from a conventional machine shop to a modern CNC machining facility serving clients across medical, automotive, industrial, and export sectors.
+        </p>
+        <ul class="about-list">
+          <li>Skilled operators, CNC programmers, setters & quality engineers on team</li>
+          <li>Multi-sector experience: medical, auto, conveyors, suspension, general engineering</li>
+          <li>Fully equipped inspection setup for dimensional verification</li>
+          <li>Experience with international supply chains (Arnott Suspension, USA)</li>
+          <li>Located at Miraj MIDC — well-connected logistics hub in Sangli district</li>
+          <li>Actively seeking expansion partners & long-term clients</li>
+        </ul>
+        <div class="md-card">
+          <div class="md-avatar">👨‍💼</div>
+          <div>
+            <div class="md-name">Mohammad Ayyaz Sikandar Bargir</div>
+            <div class="md-title">Engineer / Managing Director · Precision Engineering Works</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EXPANSION / INVESTMENT SECTION
+============================================================ -->
+<section class="section-pad" style="border-top:1px solid var(--border);">
+  <div class="container">
+    <div class="expansion-banner fade-up">
+      <div class="expansion-title">🚀 Expansion Opportunity</div>
+      <p class="expansion-text">
+        Precision Engineering Works is actively seeking <strong>funds, strategic partners, and long-term clients</strong> to fuel our growth from ₹50 Lakh to ₹1 Crore+ annual turnover. We have the team, the machines, and the track record — we're looking for the right partners to scale together.
+      </p>
+      <div class="contact-actions">
+        <a href="mailto:bargirayyaz@gmail.com" class="btn-primary">📩 Discuss Partnership</a>
+        <a href="https://wa.me/918668256465" class="btn-outline" target="_blank">💬 WhatsApp Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT SECTION
+============================================================ -->
+<section class="section-pad contact-section" id="contact">
+  <div class="container">
+    <div class="section-header fade-up" style="text-align:center;">
+      <div class="section-label" style="text-align:center;">// Get In Touch</div>
+      <h2 class="section-title" style="text-align:center;">Let's <span>Work Together</span></h2>
+      <div class="divider-line" style="margin:1rem auto 0;"></div>
+      <p class="section-subtitle" style="text-align:center; margin:0.5rem auto 0;">Ready to discuss your machining requirements? Reach out via phone, WhatsApp, or email.</p>
+    </div>
+    <div class="contact-grid fade-up">
+      <div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">📞</div>
+          <div>
+            <div class="contact-info-label">Phone / WhatsApp</div>
+            <div class="contact-info-val">
+              <a href="tel:+918668256465">+91 86682 56465</a><br/>
+              <a href="tel:+919766666076">+91 97666 66076</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">✉</div>
+          <div>
+            <div class="contact-info-label">Email</div>
+            <div class="contact-info-val"><a href="mailto:bargirayyaz@gmail.com">bargirayyaz@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">📍</div>
+          <div>
+            <div class="contact-info-label">Address</div>
+            <div class="contact-info-val">Alankar Colony, Near Suyash Foundry,<br/>Miraj MIDC, Miraj – 416410,<br/>Sangli District, Western Maharashtra</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">🕐</div>
+          <div>
+            <div class="contact-info-label">Working Hours</div>
+            <div class="contact-info-val">Mon – Sat: 8:00 AM – 7:00 PM<br/>Sunday: By Appointment</div>
+          </div>
+        </div>
+
+        <!-- QR CODE -->
+        <div class="qr-section">
+          <div class="qr-title">📱 Scan to Visit This Page</div>
+          <div id="qrcode"></div>
+          <div class="qr-note">Scan with any smartphone camera to open this profile</div>
+        </div>
+      </div>
+
+      <div class="contact-cta-box">
+        <div class="contact-cta-title">Start Your Project Today</div>
+        <p class="contact-cta-sub">
+          Share your component drawing, batch size, and material — and we'll get back to you with a competitive quote. We handle one-off prototypes to high-volume production runs.
+        </p>
+        <div class="contact-actions">
+          <a href="https://wa.me/918668256465?text=Hello%2C%20I%20am%20interested%20in%20your%20CNC%20machining%20services." target="_blank" class="btn-primary">
+            💬 WhatsApp Us
+          </a>
+          <a href="mailto:bargirayyaz@gmail.com" class="btn-outline">
+            📧 Send Email
+          </a>
+        </div>
+        <div style="margin-top:2rem; padding-top:2rem; border-top:1px solid var(--border);">
+          <div style="font-family:var(--font-mono); font-size:0.72rem; color:var(--text-muted); letter-spacing:0.1em; margin-bottom:1rem;">QUICK REACH</div>
+          <div style="display:flex; flex-direction:column; gap:0.8rem;">
+            <a href="tel:+918668256465" style="display:flex; align-items:center; gap:0.75rem; color:var(--text-secondary); font-size:0.9rem; transition:color 0.2s;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='var(--text-secondary)'">
+              <span style="width:32px; height:32px; background:rgba(0,212,255,0.1); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.9rem; flex-shrink:0;">📞</span>
+              +91 86682 56465 (Primary)
+            </a>
+            <a href="tel:+919766666076" style="display:flex; align-items:center; gap:0.75rem; color:var(--text-secondary); font-size:0.9rem; transition:color 0.2s;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='var(--text-secondary)'">
+              <span style="width:32px; height:32px; background:rgba(0,212,255,0.1); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.9rem; flex-shrink:0;">📞</span>
+              +91 97666 66076 (Alt)
+            </a>
+            <a href="mailto:bargirayyaz@gmail.com" style="display:flex; align-items:center; gap:0.75rem; color:var(--text-secondary); font-size:0.9rem; transition:color 0.2s;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='var(--text-secondary)'">
+              <span style="width:32px; height:32px; background:rgba(0,212,255,0.1); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.9rem; flex-shrink:0;">✉</span>
+              bargirayyaz@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-copy">
+        © 2025 Precision Engineering Works. A unit of Perfect Engineering Works (Est. 1985). Miraj MIDC, Sangli, Maharashtra – 416410.
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#machines">Machines</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="https://wa.me/918668256465" target="_blank">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script>
+  /* ------ Mobile Nav ------ */
+  const hamburger = document.getElementById('hamburger-btn');
+  const mobileNav = document.getElementById('mobile-nav');
+  const mobileClose = document.getElementById('mobile-nav-close');
+  hamburger.addEventListener('click', () => mobileNav.classList.add('open'));
+  mobileClose.addEventListener('click', () => mobileNav.classList.remove('open'));
+  function closeMobileNav() { mobileNav.classList.remove('open'); }
+
+  /* ------ Scroll Fade-up Animations ------ */
+  const fadeEls = document.querySelectorAll('.fade-up');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  fadeEls.forEach(el => observer.observe(el));
+
+  /* ------ QR Code Generation ------ */
+  /* The QR code will point to this page. When hosted on a server,
+     replace the URL below with your actual domain/link. */
+  window.addEventListener('load', function () {
+    try {
+      var pageURL = window.location.href;
+      // Fallback label if opened as a local file
+      if (pageURL.startsWith('file://') || pageURL === 'about:blank') {
+        pageURL = 'https://wa.me/918668256465';
+      }
+      new QRCode(document.getElementById('qrcode'), {
+        text: pageURL,
+        width: 180,
+        height: 180,
+        colorDark: '#00d4ff',
+        colorLight: '#0d1117',
+        correctLevel: QRCode.CorrectLevel.H
+      });
+    } catch(e) {
+      document.getElementById('qrcode').innerHTML =
+        '<p style="color:var(--text-muted);font-size:0.8rem;">Upload this file to a web host to generate QR code,<br>or use wa.me/918668256465 in a QR generator.</p>';
+    }
+  });
+</script>
+</body>
+</html>
